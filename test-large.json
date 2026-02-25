@@ -1,0 +1,83 @@
+[
+    {
+        "company_id": "c-001",
+        "company_name": "TechFlow Inc",
+        "location": {
+            "country": "USA",
+            "state": "California",
+            "city": "San Francisco"
+        },
+        "departments": [
+            {
+                "dept_code": "ENG",
+                "dept_name": "Engineering",
+                "employees": [
+                    {
+                        "emp_id": "e-101",
+                        "name": "Alice Smith",
+                        "role": "Senior Developer",
+                        "salary": 140000,
+                        "active": true
+                    },
+                    {
+                        "emp_id": "e-102",
+                        "name": "Bob Jones",
+                        "role": "QA Engineer",
+                        "salary": 95000,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "dept_code": "MKT",
+                "dept_name": "Marketing",
+                "employees": [
+                    {
+                        "emp_id": "e-103",
+                        "name": "Carol White",
+                        "role": "Marketing Director",
+                        "salary": 120000,
+                        "active": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "company_id": "c-002",
+        "company_name": "DataGenix",
+        "location": {
+            "country": "UK",
+            "state": "England",
+            "city": "London"
+        },
+        "departments": [
+            {
+                "dept_code": "ENG",
+                "dept_name": "Engineering",
+                "employees": [
+                    {
+                        "emp_id": "e-201",
+                        "name": "David Brown",
+                        "role": "Lead Architect",
+                        "salary": 160000,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "dept_code": "HR",
+                "dept_name": "Human Resources",
+                "employees": [
+                    {
+                        "emp_id": "e-202",
+                        "name": "Eve Davis",
+                        "role": "HR Manager",
+                        "salary": 105000,
+                        "active": false
+                    }
+                ]
+            }
+        ]
+    }
+]
